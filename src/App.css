@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+.padding-0{
+  padding-top: 0;
+  padding-right:0;
+  padding-left:0;
+}
+
+.navbar { 
+  margin-bottom: 0 ;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

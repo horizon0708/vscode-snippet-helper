@@ -1,0 +1,33 @@
+#option-panel{
+    background-color: #272822;
+    height: 300px;
+}
+
+.app-header{
+    height: 50px;
+    background-color: #0F0F0D
+}
+
+.tag-editor{
+    padding-top: 10px;
+}
+
+.tag-editor-form{
+    text-align: left;
+}
+
+.tag-label{
+    width: 40%;
+}
+.syntax{
+    text-align: left;
+}
+.variables{
+    text-align: left;
+}
+.panel-info{
+    display: inline;
+}
+.panel-info-2{
+    display: inline-block;
+}
