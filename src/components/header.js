@@ -19,7 +19,7 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">
                             <li><a href="https://code.visualstudio.com/docs/editor/userdefinedsnippets">VScode Docs</a></li>
-                            <li><a href="https://horizon0708.github.io/vscode-snippet-helper">Github</a></li>
+                            <li><a href="https://github.com/horizon0708/vscode-snippet-helper">Github</a></li>
                         </ul>
                     </div>
                 </div>

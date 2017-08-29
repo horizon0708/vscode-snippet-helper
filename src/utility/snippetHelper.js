@@ -19,11 +19,3 @@ ${body}
     );
 }
 
-export function copyTarget(target){
-    var range = document.createRange();
-    range.selectNode(document.getElementById("row"));
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand("Copy");
-}
-
