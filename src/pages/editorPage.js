@@ -56,11 +56,18 @@ class EditorPage extends Component {
 
         return (
             <div className="row padding-0" style={{ position: 'relative' }}>
-                <TagEditor {...tagProps} />
-                <CodeEditor {...codeProps} />
-                <div className="col-xs-12 col-sm-5 padding-0">
-                    <SnippetEditor {...snippetProps} />
+                <div className="col-xs-3 padding-0">
+                    <TagEditor {...tagProps} />
+                    
                 </div>
+                    <div className="col-xs-9 padding-0">
+                    <CodeEditor {...codeProps} />
+                    <div className="col-xs-12 col-sm-5 padding-0">
+                        <SnippetEditor {...snippetProps} />
+                    </div>
+                </div>
+
+                
             </div>
         );
     }

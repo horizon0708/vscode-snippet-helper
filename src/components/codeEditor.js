@@ -18,8 +18,7 @@ class CodeEditor extends Component {
             editorProps={{ $blockScrolling: true }}
             width=""
             showPrintMargin={false}
-            className="col-xs-12 col-sm-7"
-            height="600px"
+            className="col-xs-12 col-sm-7 code-editor"
         />
         );
     }

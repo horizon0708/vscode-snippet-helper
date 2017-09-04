@@ -19,8 +19,7 @@ class SnippetEditor extends Component {
             showGutter={false}
             highlightActiveLine={false}
             width=""
-            className="col-xs-12"
-            height="600px"
+            className="col-xs-12 snippet-editor"
         />
         );
     }
